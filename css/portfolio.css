@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+#portfolio
+{
+
+font-family: Raleway, sans-serif;
+
+border-radius:10px;
+}
+
+#portfoliodiv
+{
+	background:#161619;
+	padding-top:50px;
+	padding-bottom:100px;
+	border-radius:10px;
+}
+
+#portfolio p
+{
+color:white;
+font-family: Raleway, sans-serif;
+font-size:20px;
+text-align:center;
+
+}
+
+#portfolio a
+{
+text-decoration:none;
+}
+#portfolio h3
+{
+color:white;
+font-size:20px;
+text-align:center;
+
+
+}
+
+#portfolio h2
+{
+color:white;
+font-size:30px;
+text-align:center;
+
+
+}
+
+#portfolio h1
+{
+font-family: Playball;
+color:#FF704D;
+font-size:60px;
+border-bottom: solid 4px #FF704D;
+margin-left:50px;
+margin-right:50px;
+margin-top:0px;
+}
+
+#website
+{
+width:400px;
+height:auto;
+
+display:block;
+border-radius:10px;
+margin-left:auto;
+margin-right:auto;
+border:solid 1px white;
+border-radius:5px;
+padding-bottom:20px;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin-left:150px;
+  margin-top:20px;
+  
+}
+
+a.fill-div
+{
+display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#website img
+{
+width:370px;
+height:200px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+border-radius:5px;
+margin-bottom:20px;
+}

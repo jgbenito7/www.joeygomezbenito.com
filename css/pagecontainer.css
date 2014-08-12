@@ -1,0 +1,318 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+body
+{
+margin:0;
+width:100%;
+height:100%;
+background-image:url("/png/pattern5.png");
+/*background:#26333A;*/
+font-family:Raleway, sans-serif;
+}
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/png/17.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+#body-container
+{
+/*background:#161619;*/
+margin-top:50px;
+padding-top:0px;
+width:75%;
+height:auto;
+min-width:900px;
+max-width:1200px;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+margin-bottom:0px;
+}
+#greeting
+{
+margin-top:-50px;
+height:100px;
+width:100%;
+position:relative;
+min-width:900px;
+max-width:1200px;
+background:#26333A;
+}
+
+#greeting h1
+{
+color:#FF704D;
+font-size:60px;
+border-bottom: solid 4px #FF704D;
+margin-left:0px;
+margin-right:0px;
+}
+#mainimgcontainer
+{
+
+min-width:900px;
+max-width:1200px;
+width:100%;
+height:auto;
+position:relative;
+background:#161619;
+margin-bottom:0px;
+border-radius:5px;
+
+}
+
+#main-img
+{
+padding-top:12px;
+padding-bottom:12px;
+display:block;
+margin-right:auto;
+margin-left:auto;
+max-width:100%;
+width:98%;
+height:100%;
+/*
+border:10px solid #161619;*/
+
+}
+#slideshownav
+{
+background:green;
+/*background:#161619;*/
+margin-top:0px;
+width:100%;
+height:auto;
+min-width:900px;
+max-width:1200px;
+}
+#slideshownav ul
+{
+
+}
+#slideshownav li
+{
+display:inline;
+float:left;
+margin-right:auto;
+margin-left:auto;
+padding-bottom:10px;
+}
+
+#slideelement
+{
+width:80px;
+height:80px;
+background:white;
+border:10px solid black;
+}
+
+#body-container.about
+{
+/*background:#161619;*/
+width:75%;
+height:auto;
+min-width:900px;
+max-width:1200px;
+margin-top:50px;
+border-radius:25px;
+margin-left:auto;
+margin-right:auto;
+position:relative;
+
+
+}
+
+#res-container
+{
+/*background:#161619;*/
+margin-top:50px;
+width:75%;
+min-width:900px;
+max-width:1200px;
+height:auto;
+
+margin-left:auto;
+margin-right:auto;
+position:relative;
+}
+
+#body-container.contact
+{
+/*background:#161619;*/
+margin-top:50px;
+width:75%;
+min-width:900px;
+height:auto;
+margin-top:50px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:20px;
+
+position:relative;
+}
+#body-container.portfolio
+{
+/*background:#161619;*/
+margin-top:50px;
+width:75%;
+min-width:900px;
+height:auto;
+margin-top:50px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:20px;
+
+position:relative;
+}
+
+#body-container h1.index
+{
+font-family: Playball;
+color:black;
+font-size:7rem;
+position:absolute;
+right:360px;
+top:30px;
+}
+
+#body-container img.firstimg
+{
+float:right; 
+height:220px; 
+width:220px;
+margin-left:10px; 
+margin-right:50px; 
+margin-bottom:25px;
+border: 2px white solid;
+}
+
+#body-container img.secondimg
+{
+height:240px; 
+width:310px; 
+float:left;
+margin-right:10px;
+margin-left:50px;
+border:2px white solid;
+}
+
+#body-container img.lastimg
+{
+float:right;
+margin-right:50px;
+margin-left:10px;
+border:2px white solid;
+overflow:hidden;
+}
+#body-container img.resumeimg
+{
+width:90%; 
+height:60%; 
+display:block;
+margin-left:auto; 
+margin-right:auto;
+}
+
+
+
+#navbar
+{
+margin-top:0px;
+margin-bottom:0px;
+margin-left:auto;
+margin-right:auto;
+min-width:900px;
+width:auto;
+height:50px;
+background-color:transparent;
+/*background-image:url("/png/pattern5.png");*/
+}
+
+#navbar ul
+{
+float:right;
+margin-right:0px;
+margin-bottom:0px;
+}
+
+#navbar li
+{
+display:inline;
+float:left;
+color:white;
+padding-top:0px;
+padding-right:5px;
+padding-left:5px;
+}
+
+#navbar li.active
+{
+display:inline;
+float:left;
+color:white;
+margin-top:-3px;
+padding-top:0px;
+padding-right:5px;
+padding-left:5px;
+padding-bottom:0px;
+}
+
+#navbar a
+{
+color:#FF704D;
+text-decoration:none;
+}
+
+#navbar a.active
+{
+color:#FFFFFF;
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid white;
+}
+
+footer
+{
+color:white;
+text-align:center;
+opacity:0.5;
+display:block;
+padding-bottom:25px;
+padding-top:25px;
+}
+.footdiv
+{
+width:100%;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+margin-bottom:0px;
+max-width:1200px;
+min-width:900px;
+}
+#footwrap
+{
+width:75%;
+position:relative;
+margin:auto;
+font-size:18px;
+text-align:center;
+}
+#footwrap a
+{
+text-decoration:none;
+color:white;
+opacity:1.0;
+}

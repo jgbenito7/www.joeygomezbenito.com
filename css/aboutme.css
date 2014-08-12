@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+#aboutpage
+{
+
+font-family: Raleway, sans-serif;
+border-radius: 25px;
+}
+
+#aboutpage p
+{
+color:white;
+font-family: Raleway, sans-serif;
+font-size:25px;
+margin-left:50px;
+margin-right:50px;
+text-indent:35px;
+}
+
+#aboutpage a
+{
+color:#FF704D;
+font-decoration:none;
+}
+
+#aboutpage h2
+{
+color:white;
+font-size:40px;
+border-bottom: solid 4px white;
+margin-left:50px;
+margin-right:50px;
+}
+
+#aboutpage h1
+{
+font-family: Playball;
+color:#FF704D;
+font-size:60px;
+border-bottom: solid 4px #FF704D;
+margin-left:50px;
+margin-right:50px;
+}
+
+#div1
+{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:auto;
+background:#161619;
+overflow:hidden;
+border-radius:10px;
+margin-bottom:20px;
+}
+#div2
+{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:auto;
+background:#161619;
+overflow:hidden;
+border-radius:10px;
+margin-bottom:20px;
+padding-bottom:30px;
+}
+#div3
+{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+height:auto;
+background:#161619;
+overflow:hidden;
+padding-bottom:40px;
+margin-bottom:20px;
+border-radius:10px;
+margin-bottom:20px;
+}

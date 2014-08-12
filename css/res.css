@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+#resume
+{
+margin-top:0px;
+font-family: Raleway, sans-serif;
+
+}
+
+#resume p
+{
+color:white;
+font-family: Raleway, sans-serif;
+font-size:25px;
+margin-left:50px;
+margin-right:50px;
+}
+
+#resume a
+{
+color:#FF704D;
+font-decoration:none;
+}
+
+#resume h2
+{
+color:white;
+font-size:40px;
+border-bottom: solid 4px white;
+margin-left:50px;
+margin-right:50px;
+}
+
+
+#resume h1
+{
+font-family: Playball;
+color:#FF704D;
+font-size:60px;
+border-bottom: solid 4px #FF704D;
+margin-left:50px;
+margin-right:50px;
+margin-top:0px;
+padding-top:50px;
+}
+
+#resdiv
+{
+background:#161619;
+width:100%;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+padding-bottom:50px;
+margin-bottom:20px;
+border-radius:10px;
+}
+#resdiv img.resumeimg
+{
+width:92%; 
+height:99%; 
+display:block;
+margin-left:auto; 
+margin-right:auto;
+}

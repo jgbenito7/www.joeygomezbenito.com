@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+#contact
+{
+
+font-family: Raleway, sans-serif;
+
+border-radius:10px;
+}
+
+#contactdiv
+{
+	background:#161619;
+	padding-top:50px;
+	padding-bottom:100px;
+	border-radius:10px;
+}
+
+#contact p
+{
+color:white;
+font-family: Raleway, sans-serif;
+font-size:25px;
+margin-left:50px;
+margin-right:50px;
+}
+
+#contact a
+{
+color:#FF704D;
+font-decoration:none;
+}
+
+#contact h2
+{
+color:white;
+font-size:40px;
+border-bottom: solid 4px white;
+margin-left:50px;
+margin-right:50px;
+}
+
+#contact h1
+{
+font-family: Playball;
+color:#FF704D;
+font-size:60px;
+border-bottom: solid 4px #FF704D;
+margin-left:50px;
+margin-right:50px;
+margin-top:0px;
+}
+
+#info
+{
+color: white;
+}
+#info a
+{
+color:#FF704D;
+font-size:25px;
+text-decoration:none;
+}
+
+#info a:hover
+{
+color:#FF704D;
+font-size:25px;
+text-decoration:underline;
+}
+
+#info li
+{
+color:white;
+padding-left:50px;
+padding-bottom:8px;
+font-size:25px;
+}

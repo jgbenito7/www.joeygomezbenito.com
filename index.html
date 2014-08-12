@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="/css/pagecontainer.css"></link>
+<link rel="stylesheet" type="text/css" href="/css/header.css"></link>
+<title>Joey Gomez-Benito | UCLA Computer Science</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Hi there! My name is Joey Gomez-Benito and I am a third year Computer Science major at UCLA! Come on in and take a look at my personal website"/>
+<meta name="author" content="Joey Gomez-Benito"/>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="flowtype.js"></script>
+<script src="/js/loader.js"></script>
+
+
+<link rel="shortcut icon" href="icon.ico"/>
+
+</head>
+
+<body>
+<div class="loader"></div>
+<div id='header'>
+<div id='headwrap'>
+        <h1>JOEY GOMEZ-BENITO | UCLA COMPUTER SCIENCE</h1>
+<ul>
+	<li><a href='http://www.github.com/jgbenito7'><img src=/png/github.png></img></a></li>
+	<li class="email"><a href='mailto:jgbenito7@gmail.com'><img src=/png/email29.png></img></a></li>
+	<li><a href='http://www.facebook.com/joey.gomezbenito'><img src=png/facebook.png></img></a></li>
+        
+        
+        
+        
+        </ul>
+</div> 
+</div>
+
+<div id='body-container'>
+<div id='navbar'>
+
+<ul>
+<li><a href='index.html' class='active'><span>Home</span></a></li>
+<li> &#149 </li>
+   <li><a href='aboutme.html'><span>About Me</span></a></li>
+<li> &#149 </li>
+<li><a href='portfolio.html' class='fade'>Portfolio</a></li>
+<li> &#149 </li>
+   <li><a href='res.html'><span>Resume</span></a></li>
+<li> &#149 </li>
+   
+   <li><a href='contactme.html'><span>Contact</span></a></li>
+</ul>
+
+
+</div>
+
+<div id='mainimgcontainer'>
+<img src=/rsz_mountain.jpg id="main-img"></img>
+</div>
+
+<h1 class='index'>Welcome.</h1>
+</div>
+
+<footer class="footdiv">
+<div id="footwrap">
+&copy Joey Gomez-Benito 2014. <a href="/contactme.html">Contact me.<a>
+</footer>
+
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+            $("body").css("display", "none");
+            $("body").fadeIn(300);
+            $("h1.index").animate({
+    		right:'50px',
+    		
+    	
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+	var containerWidth = document.getElementById("mainimgcontainer").offsetWidth;
+	var font = $(".index").css('font-size');
+	$(".index").css('font-size', containerWidth*0.1);
+	console.log(containerWidth);
+	$(window).on('resize', function(){
+	   var containerWidth = document.getElementById("mainimgcontainer").offsetWidth;
+	   console.log(containerWidth);
+	   $(".index").css('font-size', containerWidth*0.1);
+	});						
+});
+</script>
+
+</html>
